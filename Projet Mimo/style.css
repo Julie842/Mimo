@@ -1,0 +1,80 @@
+
+/* Style global et centrage de la page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Conteneur principal (votre balise <main>) */
+main {
+  text-align: center;
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  max-width: 360px;
+  width: 90%;
+}
+
+/* Image de profil arrondie */
+main img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%; /* Rend l'image ronde */
+  object-fit: cover;
+  border: 3px solid #0077b5; /* Optionnel : un contour de couleur */
+  margin-bottom: 15px;
+}
+
+/* Typographies */
+h1 {
+  font-size: 1.5rem;
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 25px;
+}
+
+/* Conteneur de liens */
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Espace régulier entre les boutons */
+}
+
+/* Transformation des liens en boutons Linktree */
+.links-container a {
+  display: block;
+  background-color: #0077b5; /* Couleur de fond (ici le bleu LinkedIn) */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 119, 181, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Effets interactifs au survol (hover) */
+.links-container a:hover {
+  background-color: #005582;
+  transform: translateY(-2px); /* Léger effet de soulèvement */
+  box-shadow: 0 6px 15px rgba(0, 119, 181, 0.3);
+}
