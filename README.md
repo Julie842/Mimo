@@ -29,7 +29,7 @@ La page adopte une mise en page moderne, minimaliste et entièrement centrée po
 
 ---
 
-## 📂 Structure des Fichiers
+## 📂 Structure des fichiers
 
 ```text
 .
