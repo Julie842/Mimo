@@ -1,4 +1,5 @@
 # Mimo
+
 Projet Mimo : mon linktree 🔗
 
 Ce projet consiste en une page web personnelle de type **Linktree**, conçue pour centraliser mes liens professionnels et mes profils de réseaux réseaux sociaux (LinkedIn et GitHub). 
